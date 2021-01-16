@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
+
+body{
+  height: 150vh;
+  padding:5px;
+  background-image: url(city.jpg);
+  background-size: cover;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #104C91;
+  font-size: 90px;
+  font-family: sans-serif;
+  flex-direction: column;
+  /*background-color: #EFC9AF;*/
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.interactions{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  margin-top: 60px;
+}
+
+
+.cityName{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 90px;
+  font-family: Fraunces;
+  background-color: rgba(255, 240, 245, 0.295);
+  color: #00fdff;
+}
+
+
+#textbar{
+  height: 60px;
+  width: 800px;
+  padding: 10px;
+  margin: 0 auto;
+  border: 2px black solid;
+  line-height: 30px;
+  font-size: 32px;
+}
+
+
+#check{
+  padding:10px;
+  font-size:30px;
+  border: 4px aqua solid;
+  border-radius: 10px;
+  font-weight: bolder;
+  color: #495057;
+  margin: 10px;
+  margin-top: 40px;
+  transition: 0.25s;
+}
+
+#check:hover{
+  background-color: #333;
   color: white;
+  transform: translate3d(0px, -5px, 0px);
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.weatherContents{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.temperature li{
+  list-style-type: none;
+  border: 4px pink solid;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+  color: orange;
+  background-color: rgba(0, 0 , 0 , 0.3);
 }
+
+
+
+.display{
+  margin-top: 60px;
+}
+
+/*
+.main{
+  background-color: rgba(0, 0, 0, 0.185);
+}*/
+
+.weatherType{
+  font-size: 80px;
+  color: greenyellow;
+}
+
+
+
+
+
