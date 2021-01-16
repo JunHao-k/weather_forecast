@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/weather_forecast/static/css/main.fee408a3.chunk.css",
+    "main.js": "/weather_forecast/static/js/main.ef5d38a1.chunk.js",
+    "main.js.map": "/weather_forecast/static/js/main.ef5d38a1.chunk.js.map",
+    "runtime-main.js": "/weather_forecast/static/js/runtime-main.f801696a.js",
+    "runtime-main.js.map": "/weather_forecast/static/js/runtime-main.f801696a.js.map",
+    "static/js/2.cfc1bbca.chunk.js": "/weather_forecast/static/js/2.cfc1bbca.chunk.js",
+    "static/js/2.cfc1bbca.chunk.js.map": "/weather_forecast/static/js/2.cfc1bbca.chunk.js.map",
+    "static/js/3.f590dca7.chunk.js": "/weather_forecast/static/js/3.f590dca7.chunk.js",
+    "static/js/3.f590dca7.chunk.js.map": "/weather_forecast/static/js/3.f590dca7.chunk.js.map",
+    "index.html": "/weather_forecast/index.html",
+    "static/css/main.fee408a3.chunk.css.map": "/weather_forecast/static/css/main.fee408a3.chunk.css.map",
+    "static/js/2.cfc1bbca.chunk.js.LICENSE.txt": "/weather_forecast/static/js/2.cfc1bbca.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/weather_forecast/static/media/city.54842d6c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f801696a.js",
+    "static/js/2.cfc1bbca.chunk.js",
+    "static/css/main.fee408a3.chunk.css",
+    "static/js/main.ef5d38a1.chunk.js"
+  ]
+}
