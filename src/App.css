@@ -2,10 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
 
 body{
-  height: 150vh;
+  height: 200vh;
   padding:5px;
   background-image: url(city.jpg);
   background-size: cover;
+  
 }
 .banner {
   display: flex;
